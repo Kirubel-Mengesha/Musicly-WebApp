@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JKE Music Dashboard</title>
+    <link rel="stylesheet" href="/css/dash.css">
+    <link rel="icon" href="/images/music-logo.jpg" type="image/x-icon">
+    <script src="/js/main.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <header>
+            
+          <a href="/"> <img src="/images/music-logo.jpg" alt="Logo" class="logo"></a> 
+        <span>Welcome, <span id="userTag" ></span > &nbsp;<img src="/images/gestures.png" alt="music" width="15vw" height="15vh"></span>
+           
+            <button type="submit" class="logout-btn" id="logoutbtn">Logout</button>
+
+
+        </header>
+        <main>
+            <section class="songs-section">
+                <h2>Songs You May Be Interested In</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Title</th>
+                            <th>Genre</th>
+                            <th>Artist</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="music-tbody">
+                      
+                    </tbody>
+                </table>
+            </section>
+            <section class="playlist-section">
+                <h2>Your Playlist</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Title</th>
+                            <th>Genre</th>
+                            <th>Artist</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="playlist-tbody">
+                        
+                    </tbody>
+                </table>
+            </section>
+           
+            <section id="play-section">
+                
+            </section>
+            
+            
+        </main>
+    </div>
